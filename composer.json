@@ -1,0 +1,23 @@
+{
+    "name": "ahmedsaoud31/arabic",
+    "description": "",
+    "authors": [
+        {
+            "name": "ahmed",
+            "email": "ahmedsaoud31@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Ahmedsaoud31\\Arabic\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
