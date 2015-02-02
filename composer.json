@@ -17,6 +17,9 @@
         "laravel/laravel": ">=4.0.0"
     },
     "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
         "psr-0": {
             "Ahmedsaoud31\\Arabic\\": "src/"
         }
