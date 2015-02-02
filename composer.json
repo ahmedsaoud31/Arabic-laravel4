@@ -1,6 +1,9 @@
 {
     "name": "ahmedsaoud31/arabic",
-    "description": "",
+	"type": "plugin",
+    "description": "Arabic package for laravel4, arabic date, cut arabic string, arabic numer and since arabic format",
+	"homepage": "http://github.com/ahmedsaoud31/Arabic-laravel4",
+    "license": "LGPL",
     "authors": [
         {
             "name": "ahmed",
@@ -9,7 +12,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "laravel": ">=4.0.0"
+        "laravel/framework": ">=4.0.0"
     },
     "autoload": {
         "classmap": [
