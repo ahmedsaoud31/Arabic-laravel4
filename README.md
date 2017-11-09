@@ -19,40 +19,40 @@ Arabic package for laravel4, arabic date, cut arabic string, arabic numer and si
 
 	'Ahmedsaoud31\Arabic\ArabicServiceProvider',
 
-#Use
-###Ex1:
+# Use
+### Ex1:
 
 		$arabicText = 'إضافة اللغة العربية لإطار العمل لارافيل';
 		$len = 40;
 		echo Arabic::cut($arabicText, $len);
 
-###outbuts
+### outbuts
 
   إضافة اللغة العربية...
 
-###Ex2:
+### Ex2:
 ##### first argument format and scound argument the time in timesstamps or strtotime php functions input format
 ##### if scound argument not set, now server time will be use 
 	
 	echo Arabic::adate('w j من F Y g:i A');
 	
-###outbuts
+### outbuts
 
   ٠ ١ من فبراير ٢٠١٥ ١:٠١ مساءاً
 
-###Ex3:
+### Ex3:
 
          echo Arabic::num('12.09');
 
-###outbuts
+### outbuts
 
   ١٢٫٠٩
 
-###Ex4:
+### Ex4:
 ##### time format in timesstamps or strtotime php functions input format
 	echo 'منذ '.Arabic::since('1-1-2015');
 	
-###outbuts
+### outbuts
 
   منذ ثوان
   
