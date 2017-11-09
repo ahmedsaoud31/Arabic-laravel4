@@ -1,3 +1,7 @@
+# Updated for Laravel 5 or any other version of Laravel or use it alone
+
+[Updated Arabic Laravel](https://github.com/ahmedsaoud31/arabic-laravel)
+
 # Arabic-laravel4
 Arabic package for laravel4, arabic date, cut arabic string, arabic numer and since arabic format
 
